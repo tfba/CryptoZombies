@@ -12,6 +12,8 @@ const contract = JSON.parse(fs.readFileSync('./build/contracts/ExampleSmartContr
 console.log(JSON.stringify(contract.abi));
 ```
 
+- 방법3)  `npm install -g truffle-abi ` 설치하고, 
+`truffle-abi` 하면, build/abi/xxxxx.json 으로 생성됨.
 
 
 # CryptoZombies
